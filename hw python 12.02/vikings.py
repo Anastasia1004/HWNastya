@@ -1,7 +1,7 @@
 import re
 def vikings():
-    file = input('Время альтернативной истории! Введите имя файла со статьей про викингов: ')
-    with open(file, 'r', encoding = 'utf-8') as f:
+    wikifile = input('Время альтернативной истории! Введите имя файла со статьей про викингов: ')
+    with open(wikifile, 'r', encoding = 'utf-8') as f:
         wikiarticle = f.read()
     return wikiarticle
 
