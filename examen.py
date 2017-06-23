@@ -17,8 +17,3 @@ def file_countsent():
             cw.write(f+'\t'+str(countsent(os.path.join(root, f)))+'\n')
 
 file_countsent()
-
-#def table(files):
- #   with open ('table.csv', 'w', encoding = 'utf-8') as f:
-  #      f.write('Название файла' + \t + 'Автор' + \t + 'Название текста' + \n)
-
